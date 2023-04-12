@@ -1,0 +1,48 @@
+*{
+    font-family: "Fira Code";
+}
+
+body{
+    background-color: rgb(36, 164, 164);
+}
+
+div .input{
+    display: inline-block;
+}
+
+.container{
+    margin-top: 0%;
+    margin-left: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 50vw;
+    border-radius: 18px;
+    background-color: white;
+}
+
+button{
+    transition: 250ms;
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 15px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+    transform: scale(1.05);
+    transition: 250ms;
+}
+
+input{
+    transition: 250ms;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 22px;
+}
+input:hover{
+    cursor: text;
+    transform: scale(1.05);
+    transition: 250ms;
+}
